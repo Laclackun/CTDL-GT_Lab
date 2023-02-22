@@ -10,7 +10,8 @@ long tinhGiaithua(int n)
     }
 }
 
-int main() {
+int main() 
+{
     int n;
     cout << "Xin Hay Nhap So Can Tinh = ";
     cin >> n;
