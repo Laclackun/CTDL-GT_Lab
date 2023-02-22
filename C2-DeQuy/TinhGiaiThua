@@ -3,9 +3,11 @@ using namespace std;
 
 long tinhGiaithua(int n) 
 {
-    if (n > 0) {
+    if (n > 0) 
+    {
         return n * tinhGiaithua(n - 1);
-    } else {
+    } else 
+    {
         return 1;
     }
 }
