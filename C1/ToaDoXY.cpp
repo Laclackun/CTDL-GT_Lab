@@ -15,7 +15,7 @@ void Nhap(DiemToaDo &td)
     scanf("%d", &td.y);
 
 
-void XuatHonSo(DiemToaDo td)
+void Xuat(DiemToaDo td)
 {
     printf("(%d,%d)", td.x, td.y);
 }
