@@ -28,7 +28,7 @@ void NhapHonSo(HonSo &hs)
 
 void XuatHonSo(HonSo hs)
 {
-    printf("%d/%d", hs.SoNguyen, hs.TuSo, hs.MauSo);
+    printf("%d*(%d/%d)", hs.SoNguyen, hs.TuSo, hs.MauSo);
 }
 int main()
 {
