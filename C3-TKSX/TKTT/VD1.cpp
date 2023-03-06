@@ -6,7 +6,7 @@ int TimKiem(int a[], int n, int x)
     int i; 
     for (i = 0; i < n; i++) 
         if (a[i] == x) 
-        	return i; 
+           return i; 
     return -1; 
 } 
   
@@ -21,5 +21,5 @@ int main()
     else
 	printf("Gia Tri Nay Xuat Hien O Vi Tri %d", vt); 
     getch();
-	return 0; 
+    return 0; 
 }
