@@ -20,7 +20,7 @@ int TimKiemNhiPhan(int a[], int left, int right, int x)
   
 int main() 
 { 
-    int a[] = { 2, 3, 5, 9, 10, 11, 15, 20, 21, 30 }; 
+    int a[] = { 2, 3, 5, 9, 10, 15, 16, 20, 21, 30 }; 
     int x = 15;
     int n = sizeof(a);
     int vt = TimKiemNhiPhan(a, 0, n-1, x); 
