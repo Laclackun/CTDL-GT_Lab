@@ -21,5 +21,5 @@ int main()
     else
 	printf("Gia Tri Nay Xuat Hien O Vi Tri %d", vt); 
     getch();
-    return 0; 
+    return 0;
 }
