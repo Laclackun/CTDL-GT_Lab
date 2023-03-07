@@ -24,4 +24,6 @@ int main()
     printf("\nMang Sau Khi Sap Xep La:\n"); 
     for(int i=0; i<n; i++)
         printf(" %d ",a[i]);
+    getch();
+    return 0;
 }
