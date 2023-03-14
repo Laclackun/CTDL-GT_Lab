@@ -27,7 +27,7 @@ void DoiCho(float &a, float &b)
 	b = x;
 }
 
-void SapXepChen(float a[], int n) 
+void SapXepChonChoTT(float a[], int n) 
 { 
     int i,j,nn;
 	for(i = 0; i < n-1; i++)
