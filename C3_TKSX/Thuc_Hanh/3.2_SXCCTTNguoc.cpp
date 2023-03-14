@@ -27,7 +27,7 @@ void DoiCho(float &a, float &b)
 	b = x;
 }
 
-void SapXep(float a[], int n) 
+void SapXepChonChoTT(float a[], int n) 
 { 
     int i,j,nn;
 	for(i = 0; i < n-1; i++)
@@ -49,7 +49,7 @@ int main()
 	scanf("%d", &n);
 	} while (n>Max && printf("So Phan Tu Qua Muc."));
     NhapMang(a, n);
-    SapXepChen (a, n);
+    SapXepChonChoTT (a, n);
     printf("\nMang Sau Khi Sap Xep La:\n");
  	XuatMang(a, n);
 }
