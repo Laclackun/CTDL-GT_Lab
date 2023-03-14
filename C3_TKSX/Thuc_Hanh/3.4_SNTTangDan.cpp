@@ -9,12 +9,8 @@ int KTSNguyenTo(int a)
         return 0;
 
     for (int i = 2; i <= sqrt(a); i ++)
-    {
         if (a%i==0)
-        {
             return 0;
-        }
-    }
     return 1;
 }
 
@@ -51,7 +47,7 @@ void SapXepChonChoTT(int a[], int n)
 		if (KTSNguyenTo(a[i])==1)
 			{	
 			for (j = i+1; j < n; j++)
-			if (KTSNguyenTo(a[i])==1 && a[j] < a[nn])
+			if (KTSNguyenTo(a[j])==1 && a[j] < a[nn])
 			nn = j;
  			DoiCho(a[nn], a[i]);
 			}
