@@ -49,7 +49,7 @@ int main()
 	scanf("%d", &n);
 	} while (n>Max && printf("So Phan Tu Qua Muc."));
     NhapMang(a, n);
-    SapXepChen (a, n);
+    SapXepChonChoTT (a, n);
     printf("\nMang Sau Khi Sap Xep La:\n");
  	XuatMang(a, n);
 }
