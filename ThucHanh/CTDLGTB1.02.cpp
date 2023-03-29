@@ -2,13 +2,6 @@
 #include <conio.h>
 #include <math.h>
 
-long GiaiThua (int n)
-{
-	if(n==0)
-		return 0;
-	return (GiaiThua(n-1)*n);	
-}
-
 float TongS (float x, int n)
 {
 	if(n==0)
