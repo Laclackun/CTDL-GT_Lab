@@ -33,6 +33,6 @@ int main()
  	NhapMang(a,n);
  	T = TongSoChan(a,n);
  	printf("\nT = %d", T);
-    getch();
+        getch();
 	return 0; 
 }
