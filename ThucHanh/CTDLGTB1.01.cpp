@@ -29,7 +29,7 @@ int main()
 	{
 	printf("Xin Hay Nhap So Phan Tu Trong Mang = ");
 	scanf("%d", &n);
-	} while (n>Max && printf("So Phan Tu Qua Muc."));
+	} while (n>Max && printf("So Phan Tu Khong Hop Le!"));
  	NhapMang(a,n);
  	T = TongSoChan(a,n);
  	printf("\nT = %d", T);
