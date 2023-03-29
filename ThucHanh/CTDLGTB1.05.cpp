@@ -12,7 +12,7 @@ void NhapMang (float a[], int n)
 	}
 }
 
-int DemGTDuong (float a[], int n)
+double DemGTDuong (float a[], int n)
 {
 	if(n == 0)
 		return 0;
@@ -24,7 +24,8 @@ int DemGTDuong (float a[], int n)
   
 int main() 
 { 
- 	int n, dem;
+ 	int n;
+	double dem;
  	float  a[Max];
 	do
 	{
@@ -33,7 +34,7 @@ int main()
 	} while (n>Max && printf("So Phan Tu Khong Hop Le!"));
 	NhapMang(a,n);
  	dem = DemGTDuong(a,n);
- 	printf("\nMang nay co tong cong %d so duong.", dem);
+ 	printf("\nMang nay co tong cong %lf so duong.", dem);
     getch();
 	return 0; 
 }
