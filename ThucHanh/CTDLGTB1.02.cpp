@@ -18,9 +18,12 @@ int main()
 	float x, S;
 	printf("Xin Hay Nhap X = ");
  	scanf("%f", &x);
- 	printf("Xin Hay Nhap N = ");
+ 	do
+ 	{
+ 	printf("Xin Hay Nhap n = ");
  	scanf("%d", &n);
- 	S = TongS(x,n);
+ 	} while (n<0 && printf("Chi co the nhap n > 0 ma thoi.\n"));
+	S = TongS(x,n);
  	printf("\nS = %.3f", S);
 	getch();
 	return 0; 
